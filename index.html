@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: #212121;
+        color: rgb(222, 236, 228);
+      }
+
+      .left {
+        display: flex;
+        color: whi;
+        margin: 0 20px;
+      }
+
+      .right {
+        display: flex;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #02aa23;
+        height: 49px;
+        border-radius: 8px;
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        color: black;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: rgb(192, 233, 212);
+      }
+
+      nav ul li a:hover {
+        text-decoration: none;
+        color: rgb(222, 236, 228);
+        font-size: large;
+      }
+
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 40px 60px;
+        height: 70vh;
+      }
+
+      .firstSection div {
+        width: 35%;
+      }
+
+      .rightSection {
+        align-self: center;
+        margin: 40px 0px;
+        /* background-color: #14FFEC; */
+        font-size: 45px;
+        width: 100%;
+      }
+
+      .rightSection div {
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+
+      #hey {
+        color: rgb(192, 233, 212);
+        font-size: 1.6rem;
+      }
+
+      #myname {
+        font-size: 3.3rem;
+        color: rgb(192, 233, 212);
+      }
+
+      #identity {
+        font-size: 2rem;
+        color: rgb(192, 233, 212);
+      }
+
+      #emote {
+        text-align: center;
+        font-size: 1.5rem;
+      }
+
+      .text-grey {
+        color: rgb(192, 233, 212);
+        margin-bottom: px;
+      }
+
+      .secondsectionhead {
+        text-align: center;
+      }
+
+      .leftSection {
+        /* background-color: green; */
+        align-self: center;
+        text-align: center;
+      }
+
+      .teal {
+        color: #05a027;
+      }
+
+      main hr {
+        margin: 40px 84px;
+        background: rgb(192, 233, 212);
+        border: 0;
+        height: 1.2px;
+      }
+
+      .secondsection {
+        /* max-width: 80vw; */
+        margin: 0 120px;
+        height: 80vh;
+      }
+
+      .secondsection .secondsectionhead > h1 {
+        font-size: 3rem;
+      }
+
+      .abtmebox {
+        /* border: solid; */
+        color: rgb(160, 240, 198);
+        border-radius: 0.5rem;
+        padding: 1rem;
+        display: flex;
+        height: 80%;
+      }
+
+      #crazypattern {
+        margin: 10px 10px;
+        border-radius: 0.5rem;
+        height: 20rem;
+        border: solid rgb(160, 240, 198);
+      }
+
+      .expcontainer {
+        display: block;
+        flex-wrap: wrap;
+        margin: auto;
+      }
+      .education {
+        text-align: center;
+        align-self: center;
+        padding: 1rem;
+        border-radius: .35rem;
+        width: 50%;
+        flex: 1;
+        border: solid rgb(160, 240, 198);
+      }
+      .experience{
+        text-align: center;
+        align-self: center;
+        padding: 1rem;
+        flex: 1;        
+        border-radius: .35rem;
+        border: solid rgb(160, 240, 198);
+        width: 50%;
+        height: auto;
+      }
+      .aboutupper{
+        display: flex;
+        flex-wrap: wrap;
+        height: ;
+        gap: 1rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">FelixPort</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Skills</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">About</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">I want my Image here</div>
+        <div class="rightSection">
+          <div id="emote">🧶</div>
+          <div id="hey">Hey There!</div>
+          <div id="myname">I am <span class="teal">Kartik.</span></div>
+          <div id="identity">
+            I am an <span class="teal">Engineer</span> in making.
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <div class="secondsectionhead">
+          <span class="text-grey">Get to know more </span>
+          <h1 style="margin-top: 4px">About me.</h1>
+        </div>
+        <div class="abtmebox">
+          <img
+            id="crazypattern"
+            src="/d460eb4ac63b9a2fbad07a83bc3ac7f6.gif"
+            alt="A crazy pattern"
+          />
+          <div class="expcontainer">
+            <div class="aboutupper">
+              <div class="education">
+                <h3>Education</h3>
+                <p>
+                    B-Tech
+                    <br>
+                    2nd Year
+                </p>
+              </div> 
+              <div class="experience">
+                <h3>Experience</h3>
+                <p>
+                    Python 
+                    <br>
+                    Research Paper.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
